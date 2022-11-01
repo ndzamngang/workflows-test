@@ -1,7 +1,8 @@
 name: workflows testing
 
 on:
-  push 
+  pull_request:
+     
   
   
 jobs:
